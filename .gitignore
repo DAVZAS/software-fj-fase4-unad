@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Temporary office / editor files
+~$*
+*.tmp
+
 # Environment
 .env
 .venv

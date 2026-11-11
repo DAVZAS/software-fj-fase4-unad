@@ -11,3 +11,29 @@
 2026-11-11 16:18:23 - [WARNING] - Reserva #103 CANCELADA. Motivo: Reprogramación de evento empresarial.
 2026-11-11 16:18:23 - [ERROR] - Error imprevisto: [ERR_RESERVA_INVALIDA] Las horas de asesoría (None) deben ser un entero positivo.
 2026-11-11 16:18:23 - [INFO] - Op 10: Bloque FINALLY ejecutado. Liberación de recursos exitosa.
+2026-11-11 16:22:19 - [INFO] - ================ INICIO DE CICLO DE SIMULACIÓN (10 OPERACIONES) ================
+2026-11-11 16:22:19 - [INFO] - Op 1 completada con éxito: Cliente #1: Sergio Garzón <sergio.garzon@unad.edu.co>
+2026-11-11 16:22:19 - [WARNING] - Op 2 error controlado: [ERR_CLIENTE_INVALIDO] Nombre inválido: 'Al'. El nombre del cliente debe tener al menos 3 caracteres válidos.
+2026-11-11 16:22:19 - [WARNING] - Op 3 error controlado: [ERR_CLIENTE_INVALIDO] Correo electrónico inválido: 'carlos_rodriguez_sin_correo'. Debe tener una estructura válida (ej. usuario@dominio.com).
+2026-11-11 16:22:19 - [INFO] - Op 4 servicio creado: [SALA] Reserva de Sala de Juntas (SALA-101) - Capacidad: 16 personas - Tarifa base/h: $75,000
+2026-11-11 16:22:19 - [WARNING] - Op 5 error controlado: [ERR_SERVICIO_INVALIDO] La tarifa base ($-20000.0) debe ser un valor numérico estrictamente mayor a 0.
+2026-11-11 16:22:19 - [INFO] - Op 6 servicio creado: [ASESORÍA] Asesoría Especializada en Desarrollo (ASES-301) - Consultor: Ing. de Software Senior - Tarifa base/h: $130,000 (IVA 19% aplicable)
+2026-11-11 16:22:19 - [INFO] - Reserva #101 CONFIRMADA con éxito | Cliente: 'Sergio Garzón' | Servicio: 'Reserva de Sala de Juntas' | Horas: 4 | Costo Total: $310,500.00 COP
+2026-11-11 16:22:19 - [WARNING] - Op 8 error controlado: [ERR_RESERVA_INVALIDA] La duración de la reserva debe ser de al menos 1 hora (recibido: 0).
+2026-11-11 16:22:19 - [INFO] - Reserva #103 CONFIRMADA con éxito | Cliente: 'Sergio Garzón' | Servicio: 'Alquiler de Videoproyector Láser 4K' | Horas: 5 | Costo Total: $215,000.00 COP
+2026-11-11 16:22:19 - [WARNING] - Reserva #103 CANCELADA. Motivo: Reprogramación de evento empresarial.
+2026-11-11 16:22:19 - [ERROR] - Error imprevisto: [ERR_RESERVA_INVALIDA] Las horas de asesoría (None) deben ser un entero positivo.
+2026-11-11 16:22:19 - [INFO] - Op 10: Bloque FINALLY ejecutado. Liberación de recursos exitosa.
+2026-11-11 16:22:35 - [INFO] - ================ INICIO DE CICLO DE SIMULACIÓN (10 OPERACIONES) ================
+2026-11-11 16:22:35 - [INFO] - Op 1 completada con éxito: Cliente #1: Sergio Garzón <sergio.garzon@unad.edu.co>
+2026-11-11 16:22:35 - [WARNING] - Op 2 error controlado: [ERR_CLIENTE_INVALIDO] Nombre inválido: 'Al'. El nombre del cliente debe tener al menos 3 caracteres válidos.
+2026-11-11 16:22:35 - [WARNING] - Op 3 error controlado: [ERR_CLIENTE_INVALIDO] Correo electrónico inválido: 'carlos_rodriguez_sin_correo'. Debe tener una estructura válida (ej. usuario@dominio.com).
+2026-11-11 16:22:35 - [INFO] - Op 4 servicio creado: [SALA] Reserva de Sala de Juntas (SALA-101) - Capacidad: 16 personas - Tarifa base/h: $75,000
+2026-11-11 16:22:35 - [WARNING] - Op 5 error controlado: [ERR_SERVICIO_INVALIDO] La tarifa base ($-20000.0) debe ser un valor numérico estrictamente mayor a 0.
+2026-11-11 16:22:35 - [INFO] - Op 6 servicio creado: [ASESORÍA] Asesoría Especializada en Desarrollo (ASES-301) - Consultor: Ing. de Software Senior - Tarifa base/h: $130,000 (IVA 19% aplicable)
+2026-11-11 16:22:35 - [INFO] - Reserva #101 CONFIRMADA con éxito | Cliente: 'Sergio Garzón' | Servicio: 'Reserva de Sala de Juntas' | Horas: 4 | Costo Total: $310,500.00 COP
+2026-11-11 16:22:35 - [WARNING] - Op 8 error controlado: [ERR_RESERVA_INVALIDA] La duración de la reserva debe ser de al menos 1 hora (recibido: 0).
+2026-11-11 16:22:35 - [INFO] - Reserva #103 CONFIRMADA con éxito | Cliente: 'Sergio Garzón' | Servicio: 'Alquiler de Videoproyector Láser 4K' | Horas: 5 | Costo Total: $215,000.00 COP
+2026-11-11 16:22:35 - [WARNING] - Reserva #103 CANCELADA. Motivo: Reprogramación de evento empresarial.
+2026-11-11 16:22:35 - [ERROR] - Error imprevisto: [ERR_RESERVA_INVALIDA] Las horas de asesoría (None) deben ser un entero positivo.
+2026-11-11 16:22:35 - [INFO] - Op 10: Bloque FINALLY ejecutado. Liberación de recursos exitosa.
